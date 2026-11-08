@@ -1,0 +1,26 @@
+# 密码、令牌、密钥：绝对不能提交
+.env
+.env.*
+*secret*
+*credential*
+
+# 依赖
+node_modules/
+
+# 构建产物
+dist/
+build/
+out/
+*.zip
+*.tgz
+
+# 系统与编辑器
+.DS_Store
+.vscode/
+.idea/
+
+# 日志与缓存
+*.log
+npm-debug.log*
+.cache/
+.temp/
